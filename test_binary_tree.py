@@ -1,5 +1,5 @@
 import unittest
-from binary_tree import BinaryTree, Node
+from binary_tree import BinaryTree
 
 
 class TestNode(unittest.TestCase):

@@ -16,6 +16,12 @@ Includes an `add()` method to add ordered children.
 The `add()` method is recursive, so tree depth is limited by the Python stack size (and since
 this is not a balanced binary tree, that limit could be reached after 1000 nodes).
 
+## counting_binary_tree.py
+
+Extends binary_tree.py by keeping a count of children (descendants) on each node. This makes
+`count_descendants()` a constant time operation, at the cost of node size and and `add()`
+operation time.
+
 # Testing
 
 Run tests with:

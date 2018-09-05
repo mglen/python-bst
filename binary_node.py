@@ -10,7 +10,8 @@ class Node:
     def count_descendants(self):
         """Return count of nodes below the current node.
         
-        Takes O(n) time and O(log n) space.
+        Time complexity: O(n)
+        Space complexity: O(1) best case, O(tree_depth) worst case
         """
         stack = [self]
         size = 0
